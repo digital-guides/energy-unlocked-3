@@ -8,7 +8,7 @@ const SecondaryImageSection = () => {
           <img 
             src={fatigueSecondary} 
             alt="Mujeres experimentando fatiga mental y física" 
-            className="w-full h-56 md:h-72 object-cover"
+            className="w-full h-auto object-contain"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/15 to-transparent" />
         </div>
