@@ -15,11 +15,11 @@ const HeroSection = () => {
         
         <div className="fade-in stagger-2">
           <div className="relative rounded-xl overflow-hidden shadow-lg">
-            <img 
-              src={heroMain} 
-              alt="Mujeres experimentando fatiga y agotamiento emocional" 
-              className="w-full h-64 md:h-80 object-cover"
-            />
+          <img 
+            src={heroMain} 
+            alt="Mujeres experimentando fatiga y agotamiento emocional" 
+            className="w-full h-auto object-contain"
+          />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
           </div>
         </div>
