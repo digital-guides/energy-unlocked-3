@@ -2,7 +2,7 @@ import { Lightbulb } from "lucide-react";
 
 const InsightBox = () => {
   return (
-    <section className="py-10">
+    <section className="py-4">
       <div className="container-article">
         <div className="insight-box relative">
           <div className="absolute -top-5 left-6">
@@ -11,7 +11,7 @@ const InsightBox = () => {
             </div>
           </div>
           
-          <div className="pt-4 space-y-3 text-center">
+          <div className="pt-4 space-y-2 text-center">
             <p className="text-lg text-muted-foreground italic">
               De pronto entendí:
             </p>

@@ -1,13 +1,13 @@
 const StorytellingSection = () => {
   return (
-    <section className="section-spacing">
+    <section className="py-6">
       <div className="container-article">
-        <div className="space-y-6 body-text">
+        <div className="space-y-4 body-text">
           <p className="text-xl md:text-2xl font-serif text-primary font-medium">
             Hubo un momento en el que dejé de reconocerme.
           </p>
           
-          <div className="space-y-2 text-muted-foreground">
+          <div className="space-y-1 text-muted-foreground">
             <p>No era falta de voluntad.</p>
             <p>No era depresión.</p>
             <p>No era "pereza".</p>
@@ -17,7 +17,7 @@ const StorytellingSection = () => {
           
           <p className="text-muted-foreground">Un día me di cuenta de que:</p>
           
-          <ul className="space-y-3 pl-4">
+          <ul className="space-y-2 pl-4">
             {[
               "dormía, pero nunca descansaba",
               "hacía planes, pero no tenía energía para cumplirlos",
@@ -36,7 +36,7 @@ const StorytellingSection = () => {
             ))}
           </ul>
           
-          <div className="quote-block py-4 my-8">
+          <div className="quote-block py-3 my-4">
             <p className="text-lg">
               Era como si una parte interna se hubiera apagado para protegerme.
             </p>
