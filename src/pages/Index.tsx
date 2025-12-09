@@ -2,6 +2,7 @@ import HeroSection from "@/components/advertorial/HeroSection";
 import StorytellingSection from "@/components/advertorial/StorytellingSection";
 import StoryClosingSection from "@/components/advertorial/StoryClosingSection";
 import ScientificSection from "@/components/advertorial/ScientificSection";
+import SecondaryImageSection from "@/components/advertorial/SecondaryImageSection";
 import AffectedFunctionsSection from "@/components/advertorial/AffectedFunctionsSection";
 import InsightBox from "@/components/advertorial/InsightBox";
 import NotYourFaultSection from "@/components/advertorial/NotYourFaultSection";
@@ -15,6 +16,7 @@ const Index = () => {
       <StorytellingSection />
       <StoryClosingSection />
       <ScientificSection />
+      <SecondaryImageSection />
       <AffectedFunctionsSection />
       <InsightBox />
       <NotYourFaultSection />

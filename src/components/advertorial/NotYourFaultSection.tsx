@@ -8,28 +8,28 @@ const NotYourFaultSection = () => {
   ];
 
   return (
-    <section className="section-spacing">
+    <section className="py-4">
       <div className="container-article">
         <div className="salmon-box relative overflow-hidden">
           <div className="absolute top-0 right-0 w-32 h-32 bg-secondary/30 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
           
           <div className="relative">
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-center gap-3 mb-4">
               <Heart className="w-6 h-6 text-salmon-dark fill-salmon" />
               <h2 className="text-2xl md:text-3xl font-serif font-semibold text-primary">
                 No es tu culpa
               </h2>
             </div>
             
-            <p className="text-xl font-serif text-primary mb-6">
+            <p className="text-xl font-serif text-primary mb-4">
               Tu sistema nervioso estaba haciendo su trabajo.
             </p>
             
-            <p className="text-muted-foreground mb-4">
+            <p className="text-muted-foreground mb-3">
               Los estudios de Porges, McEwen y Barrett muestran que:
             </p>
             
-            <ul className="space-y-3 mb-6">
+            <ul className="space-y-2 mb-4">
               {points.map((point, index) => (
                 <li 
                   key={index}
@@ -43,11 +43,11 @@ const NotYourFaultSection = () => {
               ))}
             </ul>
             
-            <div className="pt-4 border-t border-secondary/50">
+            <div className="pt-3 border-t border-secondary/50">
               <p className="text-lg text-muted-foreground">
                 No era falta de fuerza.
               </p>
-              <p className="text-xl font-serif font-semibold text-primary mt-2">
+              <p className="text-xl font-serif font-semibold text-primary mt-1">
                 Era biología de supervivencia.
               </p>
             </div>
