@@ -13,9 +13,8 @@ const InsightBoxTrauma = () => {
           
           <div className="pt-4 space-y-1 text-center">
             <p className="text-xl md:text-2xl font-serif text-primary font-medium leading-relaxed">
-              No eras exagerada.<br />
-              Eras una sobreviviente.<br />
-              <span className="text-primary/90">Y tu cuerpo seguía haciendo su trabajo.</span>
+              No estabas "rota".<br />
+              <span className="text-primary/90">Tu cuerpo estaba pidiendo pausa, no castigo.</span>
             </p>
           </div>
         </div>

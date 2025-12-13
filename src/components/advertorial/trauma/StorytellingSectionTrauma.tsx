@@ -4,17 +4,15 @@ const StorytellingSectionTrauma = () => {
       <div className="container-article">
         <div className="space-y-3 body-text">
           <p className="text-xl md:text-2xl font-serif text-primary font-medium">
-            Durante años viví en modo alerta.
+            Había días en los que despertaba más cansada de lo que me acostaba.
           </p>
           
           <ul className="space-y-1.5 pl-4">
             {[
-              "Saltos por ruidos mínimos.",
-              "Rigidez constante en el pecho.",
-              "Sobresaltos emocionales.",
-              "Hipervigilancia.",
-              "Miedo sin explicación.",
-              "Dificultad para relajarme."
+              "Dormía 8 horas y seguía exhausta.",
+              "El café no servía.",
+              "El ejercicio me dejaba peor.",
+              "Mi cuerpo se sentía pesado, lento, como si no pudiera arrancar."
             ].map((item, index) => (
               <li 
                 key={index}
@@ -28,14 +26,11 @@ const StorytellingSectionTrauma = () => {
           
           <div className="quote-block py-2 my-3">
             <p className="text-lg">
-              No importaba lo que hiciera: mi cuerpo estaba listo para defenderse.
+              Pensé que era estrés. Hormonas. Anemia. Falta de hábitos.
             </p>
           </div>
           
-          <div className="space-y-1 text-muted-foreground">
-            <p>La gente decía que era "sensible", "nerviosa", "exagerada".</p>
-            <p className="text-lg font-medium text-primary">Pero no era nada de eso.</p>
-          </div>
+          <p className="text-lg font-medium text-primary">Pero nada encajaba.</p>
         </div>
       </div>
     </section>

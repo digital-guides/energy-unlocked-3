@@ -6,11 +6,11 @@ const CTASectionTrauma = () => {
       <div className="container-article text-center">
         <div className="max-w-lg mx-auto">
           <h2 className="text-2xl md:text-3xl font-serif font-semibold text-primary mb-2">
-            ¿Tu sistema nervioso está en modo alerta crónica?
+            ¿Qué tipo de desregulación está agotando tu energía?
           </h2>
           
           <p className="body-text text-muted-foreground mb-4">
-            Haz el Test y descubre si tu sistema nervioso está en modo alerta crónica.
+            Haz el Test y descubre qué tipo de desregulación está agotando tu energía.
           </p>
           
           <button className="cta-button group mb-2">
@@ -20,7 +20,7 @@ const CTASectionTrauma = () => {
           
           <div className="flex items-center justify-center gap-2 text-muted-foreground text-sm">
             <Clock className="w-4 h-4" />
-            <span>Toma menos de 2 minutos</span>
+            <span>Te tomará menos de 2 minutos</span>
           </div>
         </div>
       </div>
