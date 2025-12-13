@@ -1,11 +1,11 @@
 const AffectedFunctionsSectionTrauma = () => {
   const functions = [
-    "Respiración",
-    "Tensión muscular",
-    "Sueño",
-    "Foco mental",
+    "Energía física",
     "Digestión",
-    "Relaciones interpersonales"
+    "Claridad mental",
+    "Tolerancia al esfuerzo",
+    "Humor",
+    "Productividad"
   ];
 
   return (

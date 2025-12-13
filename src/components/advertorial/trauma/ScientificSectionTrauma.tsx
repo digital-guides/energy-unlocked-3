@@ -1,6 +1,14 @@
 import { Brain } from "lucide-react";
 
 const ScientificSectionTrauma = () => {
+  const symptoms = [
+    "fatiga persistente",
+    "intolerancia al estrés",
+    "problemas de concentración",
+    "lentitud cognitiva",
+    "desmotivación severa"
+  ];
+
   return (
     <section className="py-3 bg-muted/30">
       <div className="container-article">
@@ -11,33 +19,26 @@ const ScientificSectionTrauma = () => {
         
         <div className="space-y-3 body-text">
           <p className="text-muted-foreground">
-            El psiquiatra <strong className="text-primary">Bessel van der Kolk</strong>, en <em>The Body Keeps the Score</em>, explica que el cuerpo almacena memorias traumáticas no como historias, sino como sensaciones.
+            El investigador <strong className="text-primary">Stephen Porges</strong> explica que cuando el sistema nervioso ya no puede sostener la activación, cae en un estado de "freeze" o colapso para proteger los órganos vitales.
           </p>
           
           <p className="text-muted-foreground">
-            El sistema nervioso aprende patrones automáticos de defensa:
+            El neuroendocrinólogo <strong className="text-primary">Bruce McEwen</strong> lo describe como un agotamiento de recursos energéticos por carga alostática.
           </p>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-            {[
-              { response: "lucha", english: "fight" },
-              { response: "huida", english: "flight" },
-              { response: "congelamiento", english: "freeze" },
-              { response: "complacencia", english: "fawn" }
-            ].map((item, index) => (
-              <div key={index} className="bg-background/60 rounded-lg p-2 text-center">
-                <span className="text-primary font-medium">{item.response}</span>
-                <span className="text-muted-foreground text-sm ml-1">({item.english})</span>
-              </div>
+          <p className="text-muted-foreground font-medium">Esto provoca:</p>
+          
+          <ul className="space-y-1.5 pl-4">
+            {symptoms.map((symptom, index) => (
+              <li key={index} className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                <span className="text-foreground/80">{symptom}</span>
+              </li>
             ))}
-          </div>
+          </ul>
           
           <p className="text-muted-foreground">
-            El neurocientífico <strong className="text-primary">Stephen Porges</strong> detalla que cuando el sistema detecta amenaza —real o percibida— activa la rama simpática sin distinguir si el peligro ya pasó.
-          </p>
-          
-          <p className="text-muted-foreground">
-            Y <strong className="text-primary">Andrew Huberman</strong> confirma que un sistema en alerta puede modificar respiración, tensión muscular, digestión y percepción de seguridad.
+            La psicología somática de <strong className="text-primary">Peter Levine</strong> también muestra que el cuerpo congelado reduce energía para evitar colapsos mayores.
           </p>
         </div>
       </div>

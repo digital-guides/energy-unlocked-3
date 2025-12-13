@@ -2,9 +2,9 @@ import { Heart } from "lucide-react";
 
 const NotYourFaultSectionTrauma = () => {
   const points = [
-    "el cuerpo puede permanecer en alerta incluso cuando la mente sabe que está a salvo",
-    "la hipervigilancia es un reflejo condicionado",
-    "el sistema nervioso aprende a anticipar peligro aunque no exista"
+    "el cuerpo se apaga cuando ha sostenido demasiado",
+    "la fatiga extrema es un mecanismo de protección",
+    "la energía vuelve cuando recuperas seguridad interna"
   ];
 
   return (
@@ -17,7 +17,7 @@ const NotYourFaultSectionTrauma = () => {
           </div>
           
           <p className="body-text text-muted-foreground mb-3">
-            Los estudios de Porges, Van der Kolk y Huberman muestran que:
+            Los estudios de McEwen, Porges y Levine muestran que:
           </p>
           
           <ul className="space-y-2 mb-3">
@@ -30,8 +30,8 @@ const NotYourFaultSectionTrauma = () => {
           </ul>
           
           <div className="border-t border-border/50 pt-3 space-y-1">
-            <p className="text-lg font-medium text-primary">Tu cuerpo no estaba fallando.</p>
-            <p className="text-lg font-semibold text-primary">Tu cuerpo estaba protegiéndote.</p>
+            <p className="text-lg font-medium text-primary">Tu cuerpo no falló.</p>
+            <p className="text-lg font-semibold text-primary">Tu cuerpo te estaba cuidando.</p>
           </div>
         </div>
       </div>

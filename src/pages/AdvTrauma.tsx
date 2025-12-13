@@ -14,8 +14,8 @@ const AdvTrauma = () => {
   return (
     <>
       <Helmet>
-        <title>Vivir lista para lo peor no es personalidad… es supervivencia</title>
-        <meta name="description" content="Una explicación basada en neurociencia sobre por qué tu cuerpo puede permanecer en alerta incluso cuando tu vida ya no está en peligro." />
+        <title>Descansaba pero nunca me recuperaba - Agotamiento crónico</title>
+        <meta name="description" content="Una explicación basada en neurofisiología sobre por qué puedes sentir cansancio extremo incluso durmiendo bien." />
       </Helmet>
       
       <main className="min-h-screen bg-background">
