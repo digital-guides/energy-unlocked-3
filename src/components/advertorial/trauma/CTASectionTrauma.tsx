@@ -14,7 +14,7 @@ const CTASectionTrauma = () => {
           </p>
           
           <a 
-            href="https://nervous-system-test.netlify.app/"
+            href="https://navegador-del-sistema-nervioso.lovable.app"
             className="cta-button group mb-2 inline-flex"
           >
             <span>Hacer el Test Ahora</span>
